@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    EDIT TEXT   -->
+    <style name="edittextStyle">
+        <item name="android:background"> @drawable/edittext_background</item>
+        <item name="android:width">300dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="hintTextColor">@color/hintcolor</item>
+    </style>
+
+<!--    End EDIT TEXT   -->
+
+<!--    BUTTON  -->
+    <style name="buttonstyle">
+        <item name="android:width">300dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="fillbuttonstyle" parent="buttonstyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/textcolor</item>
+<!--        <item name="android:background">@drawable/button_fill_background</item>-->
+    </style>
+
+    <style name="blankbuttonstyle" parent="buttonstyle">
+        <item name="android:textColor">@color/textcolor</item>
+        <item name="strokeColor">@color/textcolor</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="backgroundTint">@color/background</item>
+<!--        <item name="android:background">@drawable/button_blank_background</item>-->
+    </style>
+<!--    End BUTTON  -->
+
+
+</resources>
