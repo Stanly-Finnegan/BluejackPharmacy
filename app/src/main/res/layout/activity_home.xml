@@ -44,31 +44,28 @@
     </LinearLayout>
 
 
-
     <FrameLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/bottomnav"
-        android:layout_below="@id/home_header">
+        android:layout_below="@id/home_header"
+        android:layout_alignParentStart="true"
+        >
 
 
     </FrameLayout>
-
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomnav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
+
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="0dp"
         app:backgroundTint="@color/textcolor"
         app:itemIconTint="@color/background"
         app:itemTextColor="@color/background"
-        app:menu="@menu/bottom_nav" />
+        app:menu="@menu/bottom_nav"
+        />
 
 </RelativeLayout>

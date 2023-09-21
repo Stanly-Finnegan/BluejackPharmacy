@@ -38,14 +38,14 @@ public class MedicineData {
     };
 
     static String[] tipe ={
-            "Per Tablet",
-            "Per Tablet",
-            "Per Sirup",
-            "Per Tablet",
-            "Per Tablet",
-            "Per Sirup",
-            "Per Tablet",
-            "Per Tablet"
+            "Tablet",
+            "Tablet",
+            "Sirup",
+            "Tablet",
+            "Tablet",
+            "Sirup",
+            "  Tablet",
+            "Tablet"
     };
 
     static String[] harga={
